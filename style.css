@@ -1,0 +1,141 @@
+html, body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+html {
+    font-size: 62.5%;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: #001c41;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header div {
+    flex: 1;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Permanent Marker', Helvetica, sans-serif;
+    
+}
+
+.header p {
+    margin: 2rem 0 0 1rem;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 0 2rem;
+}
+
+h2 {
+    margin-bottom: 10rem;
+}
+
+.checkbox {
+    font-size: 1.4rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#countdown {
+    font-size: 2rem;
+}
+
+#start1, #start2 {
+    height: 8rem;
+    width: 32rem;
+    margin: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#answer {
+    text-align: center; 
+    margin: 3rem 0;
+}
+
+#input {
+    width: 20rem;
+    font-size: 3rem;
+    background-color: #001c41;
+    color: white;
+}
+
+#submit {
+    width: 12rem;
+    font-size: 3rem;
+    margin: 0 2rem;
+}
+
+.box {
+    flex: 1;
+    height: 10rem;
+    margin: 2rem 2rem;
+    border-radius: 20px;
+    background-color:#cecdf4;
+    color: black;
+    font-size: 4rem;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: #9291af;
+}
+
+#points {
+    font-size: 2rem;
+}
+
+#pause {
+    margin: 0 48%;
+    width: 4%;
+
+}
+
+footer {
+    font-size: 2rem;
+	background-color: #22004f;
+    height: 7rem;
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+footer a {
+    font-family: Helvetica, sans-serif;
+    color:whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    header a {
+        font-size: 2.3rem;
+    }
+
+    .box {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        margin-bottom: 6rem;
+    }
+    
+}
+

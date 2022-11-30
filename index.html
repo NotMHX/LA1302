@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA1302: Choice und Text Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="./index.html"><p>Geografie / Geschichte Quiz</p></a>
+      </div>
+    </header>
+    <main>
+      <div id="countdown">
+        Zeit übrig: 
+        <input
+          id="minutes"
+          type="text"
+          style="border: none; width: 20px; color: #ffffff; background-color: #000000";
+          readonly
+        /> :
+        <input
+          id="seconds"
+          type="text"
+          style="width: 20px; border: none; color: #ffffff; background-color: #000000";
+          readonly
+        />
+      </div>
+
+      <div class="checkbox">
+        Play Sounds
+        <input type="checkbox" id="playSounds" checked>
+      </div>
+      
+
+      <button id="start1">Start Choice Quiz</button>
+      <button id="start2">Start Text Quiz</button>
+      <button id="pause">Pause</button>
+      <h1 id="question"></h1>
+      <h2 id="points"></h2>
+      <div id="answer"></div>
+
+      <div class="row" id="row1"></div>
+      <div class="row" id="row2"></div>
+
+      <h1 id="title">Wie geht das?</h1>
+      <h2 id="content">
+        - Es gibt 12 Fragen</br>
+        - Versuch's mit dem Choice Quiz</br>
+        - Fordere dich mit dem Text Quiz heraus!</br>
+        - Es gibt auch Sounds!</br>
+      </h2>
+
+      <script src="./app.js"></script>
+    </main>
+    <footer class="footer">
+      <p>Erstellt von der Gruppe Deluxe für die LA1302</p>
+      <a
+        href="https://github.com/NotMHX/LA1302"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Source Code</a
+      >
+    </footer>
+  </body>
+</html>
