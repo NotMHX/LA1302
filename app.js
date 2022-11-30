@@ -29,11 +29,11 @@ var questions = [
     {
         "id" : 4,
         "question" : "Wer war der letzter Präsident der Sowjetunion?",
-        "answerA" : "Josif W. Stalin",
-        "answerB" : "Nikita Chruschtschow",
-        "answerC" : "Michail Sergejewitsch Gorbatschow",
-        "answerD" : "Leo Trotzkij",
-        "correct" : "gichail sergejewitsch gorbatschow"
+        "answerA" : "Stalin",
+        "answerB" : "Chruschtschow",
+        "answerC" : "Gorbatschow",
+        "answerD" : "Trotzkij",
+        "correct" : "gorbatschow"
     },
     {
         "id" : 5,
