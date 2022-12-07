@@ -6,4 +6,4 @@
 - Fordere dich mit dem Text Quiz heraus!
 - Es gibt auch Sounds!
 
-### Öffentlicher Link: https://la1302.netlify.app/
+### Öffentlicher Link: https://notmhx.github.io/LA1302/
